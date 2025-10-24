@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}Audio Analysis{% endblock %}
+
+{% block content %}
+    <section class="analysis-card">
+        <div class="header" style="background-image: url('/static/images/header_bg.jpg');">
+            <h2>AUDIO ANALYSIS</h2>
+        </div>
+        <div class="content">
+            <div class="input-section">
+                <h3>Upload Audio</h3>
+                <input type="file" id="fileInput" accept=".wav,.mp3" style="margin: 20px 0;">
+                <button id="upload">Upload and Analyze</button>
+            </div>
+            <div class="result-section">
+                <h3>Result</h3>
+                <div id="result"></div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

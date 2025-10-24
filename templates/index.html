@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<section class="intro">
+  <h2>Human insight - made simple</h2>
+  <p>AI that listens beyond words to decode the human heart in every tone.</p>
+</section>
+
+<section class="capabilities">
+  <h3>Capabilities</h3>
+  <div class="boxes">
+    <div class="box">
+      <h4>Enhanced Generalization</h4>
+      <p>Our core engine is built upon the most trusted academic resources, including RAVDESS, TESS, datasets.</p>
+    </div>
+    <div class="box">
+      <h4>Dual-Input Emotion Capture</h4>
+      <p>Detect emotions from both Recorded Audio as well from live Recording using microphone input for a complete emotional read.</p>
+    </div>
+    <div class="box">
+      <h4>Real-Time-Integrated Processing</h4>
+      <p>Experience seamless, live analysis where all capabilities work together in real-time to provide a unified understanding of scene.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT US + TEAM MEMBERS -->
+<section class="about">
+  <div class="about-content">
+    <!-- About Us Column -->
+    <div class="about-text">
+      <h3>About Us</h3>
+      <p>
+        <strong>SERA — Smart Emotion Recognition Assistant</strong> is a Semester-3
+        capstone project developed at <em>"Ratan Tata Maharashtra State Skills University"</em>.
+        Our goal is to bridge technical learning with practical impact: we build a lightweight,
+        student-friendly speech-emotion detection tool that demonstrates ML pipelines, real-time
+        audio capture and user-focused UI in a single polished project.
+      </p>
+
+      <p>
+        This project showcases end-to-end work: dataset handling (RAVDESS / TESS),
+        feature extraction, model training, and a responsive web interface that accepts
+        live audio and uploaded files.
+      </p>
+
+      <p class="about-cta">
+        <em>We build, we test, we learn — and we make every demo count.</em>
+      </p>
+    </div>
+
+    <!-- Team Members Column -->
+    <div class="team">
+      <h3>Team Members</h3>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="avatar">AM</div>
+          <div class="team-info">
+            <h5>Md. Abdullah Mahmood</h5>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="avatar">PM</div>
+          <div class="team-info">
+            <h5>Prathamesh More</h5>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="avatar">AP</div>
+          <div class="team-info">
+            <h5>Atharva Potdar</h5>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="avatar">RS</div>
+          <div class="team-info">
+            <h5>Raghav Sharma</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /ABOUT US + TEAM MEMBERS -->
+
+{% endblock %}

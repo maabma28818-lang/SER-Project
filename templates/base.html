@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SERA - {% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+</head>
+<body>
+    <header>
+        <h1><span class="orange">S</span>ERA</h1>
+        <nav>
+            <a href="/" class="{% if request.path == '/' %}active{% endif %}">Home</a>
+            <a href="/live_mic" class="{% if request.path == '/live_mic' %}active{% endif %}">Live Mic</a>
+            <a href="/audio_analysis" class="{% if request.path == '/audio_analysis' %}active{% endif %}">Audio Analysis</a>
+        </nav>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        &copy; 2025 SERA. All rights reserved.
+    </footer>
+</body>
+</html>

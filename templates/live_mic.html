@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}Live Mic{% endblock %}
+
+{% block content %}
+
+    <section class="analysis-card">
+        <div class="header" style="background-image: url('/static/images/header_bg1.jpg');">
+            <h2>LIVE MIC</h2>
+        </div>
+        <div class="content">
+            <div class="input-section">
+                <h3>Record Audio</h3>
+                <button id="start">Start Recording</button>
+                <button id="stop" disabled>Stop Recording</button>
+                <button id="analyze" disabled>Analyze</button>
+            </div>
+            <div class="result-section">
+                <h3>Result</h3>
+                <div id="result"></div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
