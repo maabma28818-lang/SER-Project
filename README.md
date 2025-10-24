@@ -52,30 +52,5 @@ git clone https://github.com/maabma28818-lang/SER-Project.git
 cd speech-emotion-detector
 
 
-###🔧 Technical Details
-
-Framework: TensorFlow 2.20.0, Keras
-
-Model: Convolutional Neural Network (CNN)
-
-Features: Mel-spectrograms, MFCC, Chroma
-
-Datasets: RAVDESS, TESS
-
-Frontend: Flask, HTML5, CSS3, JavaScript
-
-Audio Processing: Librosa, PyAudio
-
-
-
-###🎓 Academic Significance
-
-This project demonstrates end-to-end pipeline development for audio-based deep learning, including data preprocessing, feature extraction, model training, evaluation, and UI integration suitable for academic demonstration.
-
-
-
-### Acknowledgments
-
-RAVDESS and TESS dataset providers
-
 TensorFlow and Keras communities
+
