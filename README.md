@@ -47,18 +47,19 @@ SERA is an advanced Speech Emotion Detection system that uses deep learning (CNN
 
 ### 🎯 Emotion Classes Recognized
 
-Happy 😊
-Sad 😢
-Angry 😡
-Fearful 😱
-Calm 😌
-Disgust 🤢
-Surprised 😮
-Neutral 😐 
+-Happy 😊
+-Sad 😢
+-Angry 😡
+-Fearful 😱
+-Calm 😌
+-Disgust 🤢
+-Surprised 😮
+-Neutral 😐 
 
 
 ### 🏁 Result
 
-The final model demonstrates consistent 99% accuracy across both training and real-time test samples, confirming the success of our CNN-based emotion recognition pipeline.
+The final model demonstrates consistent 99% accuracy across training , confirming the success of our CNN-based emotion recognition pipeline.
+
 
 
