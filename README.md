@@ -44,13 +44,6 @@ SERA is an advanced Speech Emotion Detection system that uses deep learning (CNN
 - Python 3.8+
 - Microphone (for live recording)
 
-### Installation
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/maabma28818-lang/SER-Project.git
-cd speech-emotion-detector
 
 
-TensorFlow and Keras communities
 
